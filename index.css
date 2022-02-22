@@ -3,18 +3,12 @@ html {
     padding: 0;
 }
 
-/*
-green background: #10B981;
-output button background: #273549;
-output letter color: #55F991;
-*/
-
 .main-content {
     width: 550px;
     height: 550px;
     align-content: center;
     background: #1F2937;
-    margin: 10px;
+    margin: 10px auto;
     padding: 50px;
     border: 2px solid white;    
 }
@@ -24,7 +18,7 @@ h1 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 300px;
     height: 80px;
-    
+    margin: 2px;
     color: #55F991;
     font-style: normal;
     font-weight: 800;
@@ -43,6 +37,7 @@ p {
     font-style: normal;
     font-size: 16px;;
     letter-spacing: 0.075em;
+    padding: 2px;
 }
 /* line break */
 hr {
@@ -65,14 +60,14 @@ button {
     border-radius: 6px;
 }
 input[type="number"]{
-    width: 4em;
+    width: 3em;
+    margin: 2px;
+    padding: 2px;
 }
 .pass-box {
     background: #273549;
-    color: #55F991;
-    
+    color: #55F991;   
 }
-
 .password-frame {
     padding: 10px;
 }
