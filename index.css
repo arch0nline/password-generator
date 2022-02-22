@@ -1,0 +1,81 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 10%;
+    padding: 10%;
+}
+/*
+green background: #10B981;
+output button background: #273549;
+output letter color: #55F991;
+*/
+
+.main-content {
+    width: 550px;
+    height: 550px;
+    align-content: center;
+    background: #1F2937;
+    margin: 10px;
+    padding: 50px;
+    border: 2px solid white;    
+}
+
+/* Generate a random password */
+h1 { 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 300px;
+    height: 80px;
+    
+    color: #55F991;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+}
+/* Generate word in white color */
+h1 .title1 {
+    color: white;
+}
+/* Never use statement */
+p {
+    color: #D5D4D8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 16px;;
+    letter-spacing: 0.075em;
+}
+/* line break */
+hr {
+    color: rgba(47, 62, 83, 1);
+    width: 446 px;
+}
+/* Generate button */
+button {
+    background: #10B981;
+    color: white;
+    
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    
+    padding: 10px;
+    margin: 10px;
+    width: 220px;
+    border: none;
+    border-radius: 6px;
+}
+input[type="number"]{
+    width: 2em;
+}
+.pass-box {
+    background: #273549;
+    color: #55F991;
+    
+}
+
+.password-frame {
+    padding: 10px;
+}
